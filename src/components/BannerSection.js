@@ -12,7 +12,7 @@ const BannerSection = () => {
                 
                 <img src="assets/images/bg/banner-bg.png" alt="" class="banner-img position-absolute inset-block-start-0 inset-inline-start-0 w-100 h-100 z-n1 object-fit-cover rounded-24" />
     
-                <div class="flex-align">
+                <div className="flex-align bg-pink-500">
                     <button type="button" id="banner-prev" class="slick-prev slick-arrow flex-center rounded-circle bg-white text-xl hover-bg-main-600 hover-text-white transition-1">
                         <i class="ph ph-caret-left"></i>
                     </button>
