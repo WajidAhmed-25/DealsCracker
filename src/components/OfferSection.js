@@ -63,19 +63,25 @@
 // ________________________________________________ Mapping Data ____________________________________________
 
 
+
+
 import React from 'react';
+
+import b1 from './Banners/b1.png';
+import b2 from './Banners/b2.jpg';
+import dc_logo from './dc_logo.png'
 
 const OfferSection = () => {
   const offerData = [
     {
-      thumbImage: "assets/images/thumbs/offer-img1.png",
+      thumbImage: b1,
       title: "Get best deal on your first order",
       expirationDate: "Expires Jan 5",
       ctaLink: "shop.html"
     },
     {
-        thumbImage: "assets/images/thumbs/offer-img1.png",
-        title: "Get best deal on your first order",
+        thumbImage: b2,
+        title: "Be a Regular Customer",
         expirationDate: "Expires Jan 5",
         ctaLink: "shop.html"
       }
@@ -104,7 +110,7 @@ const OfferSection = () => {
                   </div>
                   <div className="py-xl-4">
                     <div className="offer-card__logo mb-16 w-80 h-80 flex-center bg-white rounded-circle mx-auto">
-                      <img src="assets/images/thumbs/offer-logo.png" alt="Logo" /> 
+                      <img src={dc_logo} alt="Logo" /> 
                     </div>
                     <h4 className="text-white mb-8 text-center">{offer.title}</h4>
                     <div className="flex-align gap-8 justify-content-center">

@@ -32,12 +32,16 @@ const Home = () => {
         <Searchbox />
         <HeaderMiddle />
         <HeaderBottom />
+
+
         <BannerSection />
         <FeatureSection />
         <PromotionalSection />
         <FlashSale />
         <HomeProduct />
         <OfferSection />
+
+        
         <RecommendSection />
         <HotDeals />
         <TopVendorsSection />
