@@ -16,17 +16,17 @@ import noor from './Feature_Products/noor2.png';
 
 
 const featureItems = [
-  { title: 'Dhanak', imgSrc: dhanak, products: '125+ Products', delay: 400 },
-  { title: 'Alkaram', imgSrc: alkaram, products: '125+ Products', delay: 600 },
-  { title: 'Zeen', imgSrc: zeen, products: '125+ Products', delay: 800 },
-  { title: 'Saya', imgSrc: saya, products: '125+ Products', delay: 1000 },
-  { title: 'Khaddi', imgSrc: khaddi, products: '125+ Products', delay: 1200 },
-  { title: 'Zelbury', imgSrc: zelbury, products: '125+ Products', delay: 1400 },
-  { title: 'Outfitters', imgSrc: outfitters, products: '125+ Products', delay: 1600 },
-  { title: 'J.', imgSrc: junaid , products: '125+ Products', delay: 1800 },
-  { title: 'Sana Safinaz', imgSrc: sana, products: '125+ Products', delay: 2000 },
-  { title: 'Agha Noor', imgSrc: agha, products: '125+ Products', delay: 2200 },
-  { title: 'Noor', imgSrc: noor, products: '125+ Products', delay: 2400 },
+  { title: 'Dhanak', imgSrc: dhanak, delay: 400 },
+  { title: 'Alkaram', imgSrc: alkaram, delay: 600 },
+  { title: 'Zeen', imgSrc: zeen, delay: 800 },
+  { title: 'Saya', imgSrc: saya, delay: 1000 },
+  { title: 'Khaddi', imgSrc: khaddi, delay: 1200 },
+  { title: 'Zelbury', imgSrc: zelbury, delay: 1400 },
+  { title: 'Outfitters', imgSrc: outfitters, delay: 1600 },
+  { title: 'J.', imgSrc: junaid , delay: 1800 },
+  { title: 'Sana Safinaz', imgSrc: sana, delay: 2000 },
+  { title: 'Agha Noor', imgSrc: agha, delay: 2200 },
+  { title: 'Noor', imgSrc: noor, delay: 2400 },
 ];
 
 const FeatureSection = () => {
@@ -69,7 +69,6 @@ const FeatureSection = () => {
                       {item.title}
                     </a>
                   </h6>
-                  <span className="text-sm text-gray-400">{item.products}</span>
                 </div>
               </div>
             ))}

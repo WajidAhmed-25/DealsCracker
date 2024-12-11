@@ -2,36 +2,31 @@
 
 
 import React from 'react';
-
-import kababjees from './Promotional_Products/kababjees.png';
-import pp from './Promotional_Products/pizzapoint.png';
-import angethi from './Promotional_Products/angeethi.png';
-import broast from './Promotional_Products/broast.png'
+import saya from './Promotional_Products/saya.webp';
+import khaddi from './Promotional_Products/khaddi.webp';
+import zeen from './Promotional_Products/zeen.webp';
+import ethenic from './Promotional_Products/ethenic.webp';
 
 const PromotionalSection = () => {
   const promotionalItems = [
     {
-      imageSrc: kababjees,
+      imageSrc: saya,
       title: '',
-      link: 'shop.html',
       animationDuration: 400,
     },
     {
-      imageSrc: pp,
+      imageSrc: khaddi,
       title: '',
-      link: 'shop.html',
       animationDuration: 600,
     },
     {
-      imageSrc: angethi,
+      imageSrc: zeen,
       title: '',
-      link: 'shop.html',
       animationDuration: 800,
     },
     {
-      imageSrc: broast,
+      imageSrc: ethenic,
       title: '',
-      link: 'shop.html',
       animationDuration: 1000,
     },
   ];
@@ -53,18 +48,6 @@ const PromotionalSection = () => {
                   alt=""
                   className="position-absolute inset-block-start-0 inset-inline-start-0 w-100 h-100 object-fit-cover z-n1"
                 />
-                <div className="promotional-banner-item__content">
-                  <h6 className="promotional-banner-item__title text-32">{item.title}</h6>
-                  <a
-                    href={item.link}
-                    className="btn btn-main d-inline-flex align-items-center rounded-pill gap-8 mt-74"
-                  >
-                    Shop Now
-                    <span className="icon text-xl d-flex">
-                      <i className="ph ph-arrow-right"></i>
-                    </span>
-                  </a>
-                </div>
               </div>
             </div>
           ))}
