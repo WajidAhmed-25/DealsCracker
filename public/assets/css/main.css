@@ -8143,7 +8143,8 @@ input:focus-visible {
 }
 
 .logo img {
-    max-width: 200px;
+    max-width: 60px;
+    margin-left: 20px;
 }
 
 @media screen and (max-width: 424px) {

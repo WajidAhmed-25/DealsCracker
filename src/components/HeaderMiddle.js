@@ -1,5 +1,6 @@
 
 import React from 'react';
+import logo from './Logo/logo_dc.png';
 
 const HeaderMiddle = () => {
   return (
@@ -8,7 +9,7 @@ const HeaderMiddle = () => {
         <nav class="header-inner flex-between">
             <div class="logo">
                 <a href="index.html" class="link">
-                    <img src="assets/images/logo/logo.png" alt="Logo" />
+                    <img src={logo} alt="Logo" />
                 </a>
             </div>
 
